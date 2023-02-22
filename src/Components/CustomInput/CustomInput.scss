@@ -1,0 +1,39 @@
+@import "../../Theme/_var.scss";
+@import "../../Theme/_mixin.scss";
+
+.customInput_group {
+    background: $inputBg;
+    border: 1px solid $border-color;
+    backdrop-filter: blur(30px);
+    border-radius: 8px;
+    .form-control,
+    .input-group-text {
+      background-color: transparent;
+      border: 0;
+    }
+    .form-control {
+      font-size: 20px;
+      font-weight: 700;
+      padding: 8px 16px;
+      color: $white;
+      @media (max-width:767px){
+        font-size: 14px;
+      }
+      &::placeholder {
+        color: $gray;
+      }
+      &:focus {
+        box-shadow: unset;
+      }
+    }
+    .input-group-text {
+      color: $white;
+      font-size: 26px;
+      font-weight: 700;
+      padding: 0 28px;
+      cursor: pointer;
+      @media (max-width:767px){
+        font-size: 14px;
+      }
+    }
+  }

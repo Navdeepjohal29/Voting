@@ -1,0 +1,29 @@
+span.title-icon {
+    display: flex;
+    align-items: center;
+    max-width: 30px;
+    margin-right: 40px;
+    img{
+        max-width: 100%;
+    }
+}
+.modal_title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+width: 100%;
+}
+.bond_price{
+    display: flex;
+    justify-content: space-around;
+    label{
+        color: #ddd;
+        font-size: 24px;
+        font-weight: 400;
+    }
+    p{
+        font-weight: bold;
+        font-size: 30px;
+    }
+}

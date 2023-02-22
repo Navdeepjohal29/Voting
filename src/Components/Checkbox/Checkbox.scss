@@ -1,0 +1,23 @@
+.page-ath-form {
+  .form-check-input.is-valid:checked,
+  .was-validated .form-check-input:valid:checked {
+    background-color: #7668fe;
+  }
+  .form-check-input.is-valid,
+  .was-validated .form-check-input:valid {
+    border-color: #d2dde9;
+  }
+  .form-check-input {
+    height: 24px;
+    width: 24px;
+    cursor: pointer;
+    margin-top: 0;
+  }
+  .form-check-input[type="checkbox"] {
+    border-radius: 3px;
+  }
+  .form-check-input.is-valid:focus,
+  .was-validated .form-check-input:valid:focus {
+    box-shadow: unset;
+  }
+}

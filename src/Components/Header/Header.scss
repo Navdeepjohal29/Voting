@@ -1,0 +1,67 @@
+@import "../../Theme/_var.scss";
+@import "../../Theme/_mixin.scss";
+
+.topheader{
+  padding: 40px 0;
+  p{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 0;
+    @media (max-width:767px){
+      font-size: 16px;
+    }
+  }
+}
+.mainHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .logo{
+      max-width: 150px;
+      img{
+        width: 100%;
+      }
+    }
+    .setting-label{
+  font-size: 16px;
+  font-weight: 300;
+  img{
+    width: 17px;
+    height: 17px;
+  }
+}
+.admin-header{
+  align-items: center;
+}
+.user-icon{
+width: 44px;
+height: 44px;
+background: transparent linear-gradient(267deg, #C545DA 0%, #5C50E9 100%) 0% 0% no-repeat padding-box;
+border-radius: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-left: 30px;
+img{
+ width: 20px;
+ height: 20px;
+}
+}
+.logo{
+  @media (max-width:767px){
+    align-items: center;
+  }
+  img{
+    max-width: 50px;
+    margin-right: 10px;
+    display: none;
+    @media (max-width:991px){
+      display: block;
+    }
+     @media (max-width:767px){
+       max-width: 35px;
+     }
+  }
+}
+}

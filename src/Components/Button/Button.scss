@@ -1,0 +1,160 @@
+@import "../../Theme/_var.scss";
+@import "../../Theme/_mixin.scss";
+
+.buttonStyle {
+background: transparent linear-gradient(269deg, #C545DA 0%, #5C50E9 100%) 0% 0% no-repeat padding-box;
+border-radius: 22px;
+  color: #fff;
+  padding: 15px 40px;
+  border: none;
+  color: #fff;
+  font-size: 14px;
+  line-height: 16px;
+  height: 44px;
+  font-weight: 500;
+
+  &:hover{
+    background: #C545DA;
+    color: #fff;
+  }
+
+  @media (max-width:1199px){
+    font-size: 18px;
+    padding: 12px 20px;
+
+  }
+  @media (max-width:767px){
+    font-size: 12px;
+    padding: 7px 14px;
+  }
+  &:hover {
+    color: $white;
+  }
+
+  &.bgOrange {
+    background: $lightOrange;
+    transition: all 0.3s;
+    &:hover {
+      background: transparent;
+      color: $lightOrange;
+    }
+  }
+  &.disconnect-btn {
+    font-size: 16px;
+  }
+ &.approved-btn{
+background: #333A2D 0% 0% no-repeat padding-box;
+border: 1px solid #50AF00;
+border-radius: 20px;
+  height: 44px;
+color: #50AF00;
+padding: 7px 20px;
+margin-left: 0;
+    line-height: 21px;
+        font-size: 14px;
+        @media (max-width:767px){
+            display: block;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 0;
+        }
+
+}
+&.decined-btn{
+    background: #432C39 0% 0% no-repeat padding-box;
+border: 1px solid #A2132B;
+border-radius: 17px;
+height: 44px;
+color: #E52746;
+padding: 7px 20px;
+margin-left: 10px;
+    line-height: 21px;
+    font-size: 14px;
+      @media (max-width:767px){
+            display: block;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 0;
+        }
+
+}
+}
+
+.btnRed {
+  border-color: $red;
+  background:$red;
+  color: $white;
+  &:hover,
+  &:active {
+    background-color: $red;
+    color: $white;
+  }
+}
+
+.btnOutlineStyle {
+ padding: 11px 40px;
+   font-size: 14px;
+  font-weight: 500;
+  background-color: transparent;
+  border: 1px solid #fff;
+  border-radius: 22px;
+  transition: all 0.3s;
+  color: #fff;
+margin-right: 20px;
+  @media (max-width:767px){
+        padding: 10px 21px;
+    font-size: 12px;
+    margin-right: 10px;
+  }
+  &.btnRed {
+    border-color: $red;
+    color: $red;
+    &:hover,
+    &:active {
+      background-color: $red;
+      color: $white;
+    }
+  }
+  @media (max-width:991px){
+
+  }
+  @media (max-width:767px){
+  }
+  &.btnGreen {
+    border-color: $green;
+    color: $green;
+    &:hover,
+    &:active {
+      background-color: $green;
+      color: $white;
+    }
+  }
+  &.btnOrange {
+    border-color: $lightOrange;
+    color: $lightOrange;
+    &:hover,
+    &:active {
+      background-color: $lightOrange;
+      color: $white;
+    }
+  }
+
+  &.btnSmall {
+    max-width: 114px;
+    border-radius: 8px;
+    font-size: 22px;
+    font-weight: 500;
+    text-transform: capitalize;
+    padding: 5px;
+    @media (max-width:991px){
+      font-size: 16px;
+
+    }
+  }
+}
+.btn-check:focus+.btn-primary, .btn:focus{
+  box-shadow: unset!important;
+}
+.like-btn{
+  background-color: transparent;
+}

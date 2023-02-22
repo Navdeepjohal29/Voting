@@ -1,0 +1,15 @@
+export const API_HOST = process.env.REACT_APP_API_URL;
+export const rootName = "";
+export const NETWORK_CHAIN_ID = process.env.REACT_APP_NETWORK_CHAIN_ID;
+export const RPC_URL = process.env.REACT_APP_RPC_URL;
+export const CHAIN_ID = process.env.REACT_APP_CHAIN_ID;
+export const CHAIN_NAME = process.env.REACT_APP_CHAIN_NAME;
+export const BLOCK_EXPLORE_URL = process.env.REACT_APP_BLOCK_EXPLORE_URL;
+export const ICON_URL = process.env.REACT_APP_ICON_URL;
+export const CURRENCY_NAME = process.env.REACT_APP_CURRENCY_NAME;
+export const CURRENCY_SYMBOL = process.env.REACT_APP_CURRENCY_SYMBOL;
+export const CURRENCY_DECIMAL = process.env.REACT_APP_CURRENCY_DECIMAL;
+export const VOTING_CONTRACT = process.env.REACT_APP_VOTING_CONTRACT;
+export const CVP_TOKEN_CONTRACT = process.env.REACT_APP_CVP_TOKEN_CONTRACT;
+export const COMT_TOKEN_CONTRACT = process.env.REACT_APP_COMT_TOKEN_CONTRACT;
+export const SECRET_KEY = process.env.REACT_APP_SECRET_KEY;

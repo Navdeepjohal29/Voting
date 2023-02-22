@@ -1,0 +1,77 @@
+.wallet-modal{
+.modal-content {
+  border-radius: 5px;
+  background-color: #673b89;
+
+.modal-header{
+  color:#fff;
+  border-bottom:1px solid #ddd !important;
+  .modal-title{
+    color:#fff;
+  }
+}
+  .modal-body {
+    border-radius: 5px;
+    color: #000;
+    .pop_body {
+      display: flex;
+      justify-content: space-between;
+      padding: 15px 25px;
+      align-items: center;
+      background-color: #ccc;
+      border-radius: 17px;
+      margin: 15px 0;
+      cursor: pointer;
+      cursor: pointer;
+      p.text-muted {
+        margin: 0;
+        font-size: 20px;
+        color: #000!important;
+      }
+      img{
+        background-color: #fff;
+        height: 40px;
+        width: 40px;
+        border-radius: 10px;
+        padding: 5px;
+      }
+    }
+  }
+  .close {
+    float: right;
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 1;
+    color: #fff;
+    text-shadow: 0 1px 0 #fff;
+    opacity: 9;
+   
+  }
+}
+
+.mainHeading {
+  font-size: 25px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-left: 10px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.modal-backdrop.show {
+  opacity: .9;
+}
+}
+.pop_body {
+       background: #2F3043 0% 0% no-repeat padding-box;
+    padding: 15px 30px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    p{
+      margin-bottom: 0;
+      color: #fff;
+      cursor: pointer;
+    }
+}

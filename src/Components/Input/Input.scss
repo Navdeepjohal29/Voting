@@ -1,0 +1,29 @@
+@import "../../Theme/_var.scss";
+@import "../../Theme/_mixin.scss";
+.custom-input {
+ .form-control{
+      background: #2F3043 0% 0% no-repeat padding-box;
+        border-radius: 30px;
+        height: 60px;
+        width: 100%;
+        border: none;
+        padding-left: 24px;
+         &:focus{
+             background: #1E1E25;
+             color: #fff;
+             box-shadow: unset;
+         }
+        
+     
+    }
+    
+    label{
+      color: $white;
+      margin-bottom: 10px;
+    }
+  span.danger {
+    color: red;
+    font-size: 12px;
+    border-color: red;
+  }
+}

@@ -1,0 +1,13 @@
+@import "../../../Theme/_var.scss";
+@import "../../../Theme/_mixin.scss";
+
+.value_Card {
+    text-align: center;
+    @media (max-width:767px){
+      margin-bottom: 20px;
+    }
+    h4 {
+      color: $whiteLite;
+      margin-bottom: 4px;
+    }
+  }

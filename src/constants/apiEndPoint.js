@@ -1,0 +1,1 @@
+export const PROPOSAL_CREATE_ENDPOINT = 'proposal/create';
